@@ -1,5 +1,5 @@
 # Repositor utilizado para poder trabajar de forma grupal.
-
+```
 git para usar
 git branch ++lista las ramas
 git branch -M nombre de rama nueva
@@ -13,8 +13,9 @@ git commit -m "lo que hago "
 
 git Branch dev ++ Crea rama
 git checkout dev ++ salto a la rama dev
-
-Subir un proyecto a GitHub es una tarea fundamental para cualquier desarrollador que desee compartir su trabajo, colaborar con otros o simplemente mantener un respaldo seguro de su código.
+```
+## Subir un proyecto a GitHub:
+es una tarea fundamental para cualquier desarrollador que desee compartir su trabajo, colaborar con otros o simplemente mantener un respaldo seguro de su código.
 A continuación, se presenta una guía paso a paso para llevar a cabo este proceso de forma efectiva:
 
 ## Crear una cuenta en GitHub:
@@ -27,7 +28,7 @@ Proporciona un nombre descriptivo para tu proyecto y elige si será público o p
 Inicializar un repositorio local: En tu máquina local, abre la terminal en la carpeta de tu proyecto y
 ejecuta el comando git init para inicializar un repositorio local.
 
-##Agregar archivos al repositorio: Utiliza el comando git add .
+## Agregar archivos al repositorio: Utiliza el comando git add .
 para añadir todos los archivos de tu proyecto al área de preparación del repositorio.
 Hacer commit de los cambios: Realiza un commit con el comando git commit -m "Mensaje descriptivo" para confirmar los cambios en tu repositorio local.
 
