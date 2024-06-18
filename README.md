@@ -1,71 +1,37 @@
-# Getting Started with Create React App
+# Repositor utilizado para poder trabajar de forma grupal.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+git para usar
+git branch ++lista las ramas
+git branch -M nombre de rama nueva
 
-## Available Scripts
+git status
+git log
 
-In the project directory, you can run:
+git init
+git add .
+git commit -m "lo que hago "
 
-### `npm start`
+git Branch dev ++ Crea rama
+git checkout dev ++ salto a la rama dev
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Subir un proyecto a GitHub es una tarea fundamental para cualquier desarrollador que desee compartir su trabajo, colaborar con otros o simplemente mantener un respaldo seguro de su código.
+A continuación, se presenta una guía paso a paso para llevar a cabo este proceso de forma efectiva:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Crear una cuenta en GitHub:
+Lo primero que debes hacer es registrarte en GitHub si aún no tienes una cuenta.
+Puedes hacerlo de forma gratuita en su sitio web oficial.
+Crear un nuevo repositorio: Una vez que tengas tu cuenta, inicia sesión y dirígete a la sección de repositorios.
+Allí encontrarás la opción para crear un nuevo repositorio.
+Proporciona un nombre descriptivo para tu proyecto y elige si será público o privado.
 
-### `npm test`
+Inicializar un repositorio local: En tu máquina local, abre la terminal en la carpeta de tu proyecto y
+ejecuta el comando git init para inicializar un repositorio local.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##Agregar archivos al repositorio: Utiliza el comando git add .
+para añadir todos los archivos de tu proyecto al área de preparación del repositorio.
+Hacer commit de los cambios: Realiza un commit con el comando git commit -m "Mensaje descriptivo" para confirmar los cambios en tu repositorio local.
 
-### `npm run build`
+Vincular tu repositorio local con GitHub: Copia la URL del repositorio remoto proporcionada por GitHub y vincúlala a tu repositorio local con el comando git remote add origin https://github.com/juanmakorn/TpFinal-FrondEnd.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# TpFinal-FrondEnd
+Conecta tu cuenta de Github
+Subir los cambios a GitHub: Finalmente, envía tus cambios al repositorio remoto en GitHub con el comando git push -u origin main.
