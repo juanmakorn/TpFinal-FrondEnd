@@ -1,0 +1,23 @@
+svg{
+    height: 25px;
+    width: 25px;
+}
+h4{padding-left: 15%;
+    color:black}
+p{color:black}
+a{
+    color: rgb(77, 87, 235);
+    }
+#foot {
+    background-color: #afafaf;
+}
+
+#logoFooter {
+    height: 65px;
+}
+
+@media all and (min-height:577px) and (max-height:768px){
+    #logoFooter{
+        margin-bottom: 1.5rem;
+    }
+}

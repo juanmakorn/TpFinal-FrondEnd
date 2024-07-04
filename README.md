@@ -1,5 +1,6 @@
 # Repositor utilizado para poder trabajar de forma grupal.
 ```
+
 git para usar
 git branch ++lista las ramas
 git branch -M nombre de rama nueva
@@ -36,3 +37,7 @@ Vincular tu repositorio local con GitHub: Copia la URL del repositorio remoto pr
 
 Conecta tu cuenta de Github
 Subir los cambios a GitHub: Finalmente, envía tus cambios al repositorio remoto en GitHub con el comando git push -u origin main.
+
+# Pagina de gestion de proyecto:
+
+https://trello.com/b/CvX68Tds/frondend-tp-final
