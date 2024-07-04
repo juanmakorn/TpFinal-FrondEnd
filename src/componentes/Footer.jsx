@@ -16,10 +16,10 @@ const Footer = () => {
                 </aside>
                    <aside className="col-md-4 ">
                     <h6>Síguenos en nuestras redes sociales</h6>
-                    <a href={'*'} className='bs-light mx-2' target='' ><Facebook></Facebook></a>
-                    <a href={'*'} className='bs-light mx-2' target=''><Twitter></Twitter></a>
-                    <a href={'*'} className='bs-light mx-2' target=''><Instagram></Instagram></a>
-                    <a href={'*'} className='bs-light mx-2' target=''><Whatsapp></Whatsapp></a>
+                    <a href={'#home'} className='bs-light mx-2' target='' ><Facebook></Facebook></a>
+                    <a href={'#home'} className='bs-light mx-2' target=''><Twitter></Twitter></a>
+                    <a href={'#home'} className='bs-light mx-2' target=''><Instagram></Instagram></a>
+                    <a href={'#home'} className='bs-light mx-2' target=''><Whatsapp></Whatsapp></a>
                 </aside>
             </Container>
             <section className='text-light text-center'>
